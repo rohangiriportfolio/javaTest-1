@@ -9,8 +9,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    javac --release 17 Main.java
-                    java Main
+                    javac --release 17 Test.java
+                    java Test
                 '''
             }
         }
