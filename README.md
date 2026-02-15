@@ -1,3 +1,3 @@
 # javaTest-1
 Updated readme for checking poll scm  
-Newly updated
+Newly updated for checking Poll SCM
