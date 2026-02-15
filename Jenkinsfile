@@ -15,7 +15,7 @@ pipeline {
                 '''
             }
         }
-        stage('Trigger Downstream') {
+        stage('Trigger Upstream') {
             steps {
                 build job: 'before-declare', wait: true
             }
